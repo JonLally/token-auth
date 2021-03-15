@@ -1,0 +1,13 @@
+spring:
+  cache:
+    type: none
+# debug: true
+
+logging:
+  level:
+    com.example.tokenauth: DEBUG
+
+app:
+  security:
+    jwt:
+      secret: TemporaryKeyForTestingPurposesOnly
